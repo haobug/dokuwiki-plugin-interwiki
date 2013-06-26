@@ -32,7 +32,21 @@ class action_plugin_interwiki extends DokuWiki_Action_Plugin {
             return array();
 
         $btns = array();
+        $excludes = array_unique(
+            array_map('trim',
+                explode(',',
+                    strtolower(
+                         $this->getConf('excluded_shortcuts')
+                    )
+                )
+            )
+        );
+        sort($excludes);
+
         foreach($wikis as $key => $url) {
+            if(in_array($key, $excludes))
+                continue;
+
             $icon ='';
             foreach ($this->extensions as $ext){
                 if(file_exists(INTERWIKI_ICONS.$key.$ext)){
