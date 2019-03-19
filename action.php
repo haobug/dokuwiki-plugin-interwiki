@@ -75,8 +75,7 @@ class action_plugin_interwiki extends DokuWiki_Action_Plugin {
         $event->data[] = array(
             'type'   => 'picker',
             'title'  => $this->getLang('qb_interwiki'),
-            /* image cwd is /lib/images/toolbar */
-            'icon'   => '../interwiki.png',
+            'icon'   => '/lib/plugins/interwiki/ico.gif',
             'list'   => $this->getInterwikiButtons(),
         );
 
