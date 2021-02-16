@@ -1,7 +1,7 @@
 base   interwiki
 author haobug
 email  qingxianhao@gmail.com
-date   2019-03-19
+date   2021-02-11
 name   interwiki plugin
 desc   Interwiki links insert helper button on toolbar.
 url    https://www.dokuwiki.org/plugin:interwiki
