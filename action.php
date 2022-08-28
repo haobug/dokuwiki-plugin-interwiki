@@ -18,7 +18,7 @@ define('INTERWIKI_PREFIX','../interwiki/');
 require_once (DOKU_PLUGIN . 'action.php');
 
 class action_plugin_interwiki extends DokuWiki_Action_Plugin {
-    var $extensions = array('.png','.gif');
+    var $extensions = array('.png','.gif','.svg');
     /**
      * Register the eventhandlers
      */
