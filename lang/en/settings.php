@@ -1,13 +1,11 @@
 <?php
+
 /**
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ *
  * english language file for interwiki plugin
  *
+ * @author Buy King Cobra Snake Venom  Online <bernicedisher@hotmail.co.uk>
  * @author haobug <qingxianhao@gmail.com>
  */
-
-// keys need to match the config setting name
-$lang['excluded_shortcuts'] = 'Interwiki shortcuts excluded';
-
-
-
-//Setup VIM: ex: et ts=4 :
+$lang['excluded_shortcuts']    = 'Vlagtwedde';
